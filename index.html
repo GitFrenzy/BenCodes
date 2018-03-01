@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+ <html>
+ <header>
+     <title>BenCodes | Homepage</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="Author" content="IAmFrenzy">
+      <meta name="Keywords" content="How to, blog, IAmFrenzy, BenCodes">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <meta name="description" content="BenCodes the official website for the blogs, pictures and more! Coded completely from scratch with JAVA, HTML and CSS...">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="css/demo.css">
+	  <link rel="stylesheet" href="css/footer-basic-centered.css">
+      </header>
+     <body>
+      <img src="Assets/banner.jpg">
+           <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <a href="mailto:frenzy@thepickmc.com">Email Me</a>
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div id="main">
+      <h1><u><center>Welcome to the official website!</center></u></h1>
+      <h3><center>Here you can expect things like a blog which will be updated as much as possible, my contact information if you would like to get in touch, this website also offers an about page to get more information and the homepage which is here of course. I hope you take a look at my website and <br>enjoy it, have a nice day and thanks for coming over to my website. </center></h3>
+      <style>
+.parallax { 
+    /* The image used */
+    background-image: url("Assets/dreamland.jpg");
+
+    /* Set a specific height */
+    height: 500px; 
+    width: 1336px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax"></div>
+      <h2><center><u><b>How did you make this?</b></u></center></h2>
+      <h3><center>All you have to do is put your mind to it, just think about it and try learn something. I learnt HTML in two days and fully understood it in about three days, it takes a few days for HTML, now for CSS maybe a little longer and then a little longer for PHP and JAVA. Eventually you will get there... It takes a lot of work and fustration, it does get annoying and you have to restart your website around 70 million times because you need to do the layering differently and all sorts. If you do want help with coding and you want some notes from me or to speak to me about it please email me! Email me, my social media will be in CONTACT!</center></h3>
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+		<!-- Footer. -->
+
+		<footer class="footer-basic-centered">
+
+			<p class="footer-company-motto">This is a website created by Ben H.</p>
+
+			<p class="footer-links">
+				<a href="index.html">Home</a>
+				·
+				<a href="blog.html">Blog</a>
+				·
+				<a href="about.html">About</a>
+				·
+				<a href="Contact.html">Contact</a>
+			</p>
+
+			<p class="footer-company-name">Copyright protected &copy; 2018</p>
+
+		</footer>
+
+</body>
+</html>

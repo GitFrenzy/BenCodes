@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+ <html>
+ <header>
+     <title>BenCodes | Homepage</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="Author" content="IAmFrenzy">
+      <meta name="Keywords" content="How to, blog, IAmFrenzy, BenCodes">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="css/demo.css">
+	  <link rel="stylesheet" href="css/footer-basic-centered.css">
+      </header>
+     <body>
+      <img src="Assets/banner.jpg">
+           <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div id="main">
+      <h1><u><center>Blog Introduction</center></u></h1>
+      <h3><center>Here is my blog which I will be updating as much as possible on my days and how I have been getting on, you may see some continuous faces such as my bulldog Roxy or Roxanne as I like to call her. You may also so me, I am Ben and you may see some photo's of me too, and you may just may see some other people! </center></h3>
+      <div>
+      
+      </div>
+      <h2><u>Thursday, March 1st 2018</u></h2>
+      <h4><center>Today it was pretty awesome, world book day and I decided I wanted to go to school in my tracksuit so I went as a vampire, I got all my face fully white and it was very pale. It was pretty funny, I went to school and of course it was snowing, like it was everyday right now. It was only light snow though, it was so light that it was hardly doing anything even though it was falling down all day, but it was really cold. We all heard some rumours that we would be off school and then I asked the deputy and he said maybe. I got back home and started doing some coding then found out we were off! Sorry this was short but it is my first blog and yeah, I wanted to get started on the rest of my website so I could publish it. Thanks for reading...</center></h4>
+      <center><img src="Assets/snow.jpg"></center>
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+		<!-- Footer. -->
+
+		<footer class="footer-basic-centered">
+
+			<p class="footer-company-motto">This is a website created by Ben.</p>
+
+			<p class="footer-links">
+				<a href="index.html">Home</a>
+				·
+				<a href="blog.html">Blog</a>
+				·
+				<a href="about.html">About</a>
+				·
+				<a href="Contact.html">Contact</a>
+			</p>
+
+			<p class="footer-company-name">Copyright protected &copy; 2018</p>
+
+		</footer>
+
+</body>
+</html>

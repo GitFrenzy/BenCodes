@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+ <html>
+ <header>
+     <title>BenCodes | Homepage</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="Author" content="IAmFrenzy">
+      <meta name="Keywords" content="How to, blog, IAmFrenzy, BenCodes">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="css/demo.css">
+	  <link rel="stylesheet" href="css/footer-basic-centered.css">
+      </header>
+     <body>
+      <img src="Assets/banner.jpg">
+           <nav class="navbar">
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width="30" height="30">
+            <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="blog.html">Blog</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div id="main">
+      <h1><u><center>About</center></u></h1>
+      <h3><center>Thanks for checking out the ABOUT page! This page has everything you need to know about this website! </center></h3>
+      <div>
+      
+      </div>
+      <h3><center>This website is a blog for me to post about my life and it's like a journal so that is mainly what the website is used for however the website is also used to help me with my coding. I am using my base coding knowledge at the minute to code as much of a website as possible so if you have any improvements or comments please be sure to email me!
+          <br>
+          This website is a platform where you can contact me and find out about my coding skills, this website is one of the first official websites I have actually done so please be sure to give me improvement points and even some tips! You can follow some of my social medias coming soon, thanks for reading the about page, this will be updated soon.
+          </center></h3>
+      <center><img src="Assets/sunset.jpeg"></center>
+  </div>
+
+  <script>
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+  </script>
+		<!-- Footer. -->
+
+		<footer class="footer-basic-centered">
+
+			<p class="footer-company-motto">This is a website created by Ben.</p>
+
+			<p class="footer-links">
+				<a href="index.html">Home</a>
+				·
+				<a href="blog.html">Blog</a>
+				·
+				<a href="about.html">About</a>
+				·
+				<a href="Contact.html">Contact</a>
+			</p>
+
+			<p class="footer-company-name">Copyright protected &copy; 2018</p>
+
+		</footer>
+
+</body>
+</html>
