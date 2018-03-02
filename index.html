@@ -1,19 +1,24 @@
 <!DOCTYPE html>
- <html>
- <header>
-     <title>BenCodes | Homepage</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="Author" content="IAmFrenzy">
-      <meta name="Keywords" content="How to, blog, IAmFrenzy, BenCodes">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="description" content="BenCodes the official website for the blogs, pictures and more! Coded completely from scratch with JAVA, HTML and CSS...">
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="css/demo.css">
-	  <link rel="stylesheet" href="css/footer-basic-centered.css">
-      </header>
-     <body>
-      <img src="Assets/banner.jpg">
-           <nav class="navbar">
+<html>
+<head>
+    <title>BenCodes | Homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="IAmFrenzy">
+    <meta name="Keywords" content="How to, blog, IAmFrenzy, BenCodes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="BenCodes the official website for the blogs, pictures and more! Coded completely from scratch with JAVA, HTML and CSS...">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/footer-basic-centered.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body class="parallax" id="home">
+<div style="text-align: center; position: absolute;">
+    <div class="container-fluid w-100">
+        <img src="Assets/banner.jpg">
+        <nav class="navbar">
     <span class="open-slide">
       <a href="#" onclick="openSlideMenu()">
         <svg width="30" height="30">
@@ -24,79 +29,144 @@
       </a>
     </span>
 
-    <ul class="navbar-nav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <a href="mailto:frenzy@thepickmc.com">Email Me</a>
-    </ul>
-  </nav>
+            <!--<ul class="navbar-nav row">-->
+            <!--<li class="nav-item"><a href="index.html">Home</a></li>-->
+            <!--<li><a href="blog.html">Blog</a></li>-->
+            <!--<li><a href="about.html">About</a></li>-->
+            <!--<li><a href="contact.html">Contact</a></li>-->
+            <!--<a href="mailto:frenzy@thepickmc.com">Email Me</a>-->
+            <!--</ul>-->
+        </nav>
 
-  <div id="side-menu" class="side-nav">
-    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-    <a href="index.html">Home</a>
-    <a href="blog.html">Blog</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </div>
+        <div id="side-menu" class="side-nav">
+            <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#blog">Blog</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
 
-  <div id="main">
-      <h1><u><center>Welcome to the official website!</center></u></h1>
-      <h3><center>Here you can expect things like a blog which will be updated as much as possible, my contact information if you would like to get in touch, this website also offers an about page to get more information and the homepage which is here of course. I hope you take a look at my website and <br>enjoy it, have a nice day and thanks for coming over to my website. </center></h3>
-      <style>
-.parallax { 
-    /* The image used */
-    background-image: url("Assets/dreamland.jpg");
+    <div class="container-fluid w-75" id="text1" style="position: relative;">
+        <center>
+            <div class="box">
+                <h1><u>
+                    <center>Welcome to the official website!</center>
+                </u></h1>
+                <h3>
+                    <center>Here you can expect things like a blog which will be updated as much as possible, my contact
+                        information if you would like to get in touch, this website also offers an about page to get
+                        more
+                        information and the homepage which is here of course. I hope you take a look at my website and
+                        <br>enjoy
+                        it, have a nice day and thanks for coming over to my website.
+                    </center>
+                </h3>
 
-    /* Set a specific height */
-    height: 500px; 
-    width: 1336px;
+                <h2>
+                    <center><u><b>How did you make this?</b></u></center>
+                </h2>
+                <h3>
+                    <center>All you have to do is put your mind to it, just think about it and try learn something. I
+                        learnt
+                        HTML in two days and fully understood it in about three days, it takes a few days for HTML, now
+                        for
+                        CSS maybe a little longer and then a little longer for PHP and JAVA. Eventually you will get
+                        there... It takes a lot of work and fustration, it does get annoying and you have to restart
+                        your
+                        website around 70 million times because you need to do the layering differently and all sorts.
+                        If
+                        you do want help with coding and you want some notes from me or to speak to me about it please
+                        email
+                        me! Email me, my social media will be in CONTACT!
+                    </center>
+                </h3>
+            </div>
+            <div class="box" id="about">
+                <h1><u>
+                    <center>About</center>
+                </u></h1>
+                <h3>
+                    <center>This is everything you need to know about this website!</center>
+                </h3>
+                <div>
 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-</style>
+                </div>
+                <h3>
+                    <center>This website is a blog for me to post about my life and it's like a journal so that is
+                        mainly what the website is used for however the website is also used to help me with my coding.
+                        I am using my base coding knowledge at the minute to code as much of a website as possible so if
+                        you have any improvements or comments please be sure to email me!
+                        <br>
+                        This website is a platform where you can contact me and find out about my coding skills, this
+                        website is one of the first official websites I have actually done so please be sure to give me
+                        improvement points and even some tips! You can follow some of my social medias coming soon,
+                        thanks for reading the about page, this will be updated soon.
+                    </center>
+                </h3>
+            </div>
+            <div class="box" id="blog">
+                <h1><u>
+                    <center>Blog Introduction</center>
+                </u></h1>
+                <h3>
+                    <center>Here is my blog which I will be updating as much as possible on my days and how I have been
+                        getting on, you may see some continuous faces such as my bulldog Roxy or Roxanne as I like to
+                        call her. You may also so me, I am Ben and you may see some photo's of me too, and you may just
+                        may see some other people!
+                    </center>
+                </h3>
+                <div>
 
-<!-- Container element -->
-<div class="parallax"></div>
-      <h2><center><u><b>How did you make this?</b></u></center></h2>
-      <h3><center>All you have to do is put your mind to it, just think about it and try learn something. I learnt HTML in two days and fully understood it in about three days, it takes a few days for HTML, now for CSS maybe a little longer and then a little longer for PHP and JAVA. Eventually you will get there... It takes a lot of work and frustration, it does get annoying and you have to restart your website around 70 million times because you need to do the layering differently and all sorts. If you do want help with coding and you want some notes from me or to speak to me about it please email me! Email me, my social media will be in CONTACT!</center></h3>
-  </div>
+                </div>
+                <h2><u>Thursday, March 1st 2018</u></h2>
+                <h4>
+                    <center>Today it was pretty awesome, world book day and I decided I wanted to go to school in my
+                        tracksuit so I went as a vampire, I got all my face fully white and it was very pale. It was
+                        pretty funny, I went to school and of course it was snowing, like it was everyday right now. It
+                        was only light snow though, it was so light that it was hardly doing anything even though it was
+                        falling down all day, but it was really cold. We all heard some rumours that we would be off
+                        school and then I asked the deputy and he said maybe. I got back home and started doing some
+                        coding then found out we were off! Sorry this was short but it is my first blog and yeah, I
+                        wanted to get started on the rest of my website so I could publish it. Thanks for reading...
+                    </center>
+                </h4>
+                <center><img src="Assets/snow.jpg"></center>
+                <br>
+            </div>
+        </center>
+    </div>
 
-  <script>
-    function openSlideMenu(){
-      document.getElementById('side-menu').style.width = '250px';
-      document.getElementById('main').style.marginLeft = '250px';
-    }
+    <script>
+        function openSlideMenu() {
+            document.getElementById('side-menu').style.width = '250px';
+            document.getElementById('main').style.marginLeft = '250px';
+        }
 
-    function closeSlideMenu(){
-      document.getElementById('side-menu').style.width = '0';
-      document.getElementById('main').style.marginLeft = '0';
-    }
-  </script>
-		<!-- Footer. -->
+        function closeSlideMenu() {
+            document.getElementById('side-menu').style.width = '0';
+            document.getElementById('main').style.marginLeft = '0';
+        }
+    </script>
+    <!-- Footer. -->
 
-		<footer class="footer-basic-centered">
+    <footer class="footer-basic-centered">
 
-			<p class="footer-company-motto">This is a website created by Ben H.</p>
+        <p class="footer-company-motto">This is a website created by Ben H.</p>
 
-			<p class="footer-links">
-				<a href="index.html">Home</a>
-				·
-				<a href="blog.html">Blog</a>
-				·
-				<a href="about.html">About</a>
-				·
-				<a href="Contact.html">Contact</a>
-			</p>
+        <p class="footer-links">
+            <a href="index.html">Home</a>
+            ·
+            <a href="blog.html">Blog</a>
+            ·
+            <a href="about.html">About</a>
+            ·
+            <a href="Contact.html">Contact</a>
+        </p>
 
-			<p class="footer-company-name">Copyright protected &copy; 2018</p>
+        <p class="footer-company-name">Copyright protected &copy; 2018</p>
 
-		</footer>
-
+    </footer>
+</div>
 </body>
 </html>

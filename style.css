@@ -279,7 +279,25 @@ button:hover {
   }
 }
 
-/* mouse over link */
-a:hover {
-    color: hotpink;
+.parallax {
+    /* The image used */
+    background-image: url("Assets/dreamland.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+    width: 1336px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box {
+    background-color: white;
+    border: black 2px solid;
+    /*max-width: 700px;*/
+    margin-top: 35px;
 }
