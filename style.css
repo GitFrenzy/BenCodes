@@ -283,3 +283,5 @@ button:hover {
 a:hover {
     color: hotpink;
 }
+
+p.groove {outline-style: groove;}
