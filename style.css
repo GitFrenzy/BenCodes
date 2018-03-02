@@ -278,3 +278,8 @@ button:hover {
     width: 100%;
   }
 }
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
